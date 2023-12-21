@@ -43,7 +43,7 @@ let stringValue = "Muneeb"
 
 let isLoggedIn = true
 
-console.table([number, stringValue, isLoggedIn]);
+// console.table([number, stringValue, isLoggedIn]);
 
 let anotherValue = Number(number);
 
@@ -51,8 +51,34 @@ let anotheString = String(stringValue);
 
 let anotherLoggedIn = Boolean(isLoggedIn);
 
-console.table([anotheString, anotherValue, anotherLoggedIn])
+// console.table([anotheString, anotherValue, anotherLoggedIn])
 
-console.log(typeof anotheString)
-console.log(typeof anotherLoggedIn)
-console.log(typeof anotherValue)
+// console.log(typeof anotheString)
+// console.log(typeof anotherLoggedIn)
+// console.log(typeof anotherValue)
+
+
+// ******************** Operations ******************
+
+
+// console.log(2+3);
+// console.log(2-3);
+// console.log(2*3);
+// console.log(2**3); 2 isto power of 3
+// console.log(2%3);
+// console.log(2/3);
+
+let str1 = "Hafiz"
+
+let str2 = " Muneeb"
+
+let str3 = str1 + str2
+
+console.log(str3);
+console.log((3 + 4) * 5 % 3);
+
+let gameCounter = 100;
+
+gameCounter;
+
+console.log(gameCounter);
