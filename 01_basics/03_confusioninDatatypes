@@ -1,0 +1,38 @@
+let score = false;
+
+// console.log(score);
+// console.log(typeof (score));
+
+let anotherNumber = Number(score)
+
+// console.log(typeof (anotherNumber));
+// console.log(anotherNumber);
+
+// "33" easi;y concerted into 33
+
+// "33aa" convert into NaN
+
+// true will convert to 1
+
+// false convert to 0
+
+
+let loggedIn = "abc"
+
+let booleanIsLoggedIn = Boolean(loggedIn)
+
+console.log(booleanIsLoggedIn);
+
+
+// when we write boolean convert it into 1
+
+// when we write empty string then boolean convert into false
+
+//  if write name in a string then also boolean convert into true
+
+let someNumber = true;
+
+let anotherSome = String(someNumber)
+
+console.log(anotherSome);
+console.log(typeof anotherSome);
