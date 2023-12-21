@@ -21,7 +21,7 @@ let loggedIn = "abc"
 
 let booleanIsLoggedIn = Boolean(loggedIn)
 
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 
 // when we write boolean convert it into 1
@@ -34,5 +34,25 @@ let someNumber = true;
 
 let anotherSome = String(someNumber)
 
-console.log(anotherSome);
-console.log(typeof anotherSome);
+// console.log(anotherSome);
+// console.log(typeof anotherSome);
+
+let number = 33;
+
+let stringValue = "Muneeb"
+
+let isLoggedIn = true
+
+console.table([number, stringValue, isLoggedIn]);
+
+let anotherValue = Number(number);
+
+let anotheString = String(stringValue);
+
+let anotherLoggedIn = Boolean(isLoggedIn);
+
+console.table([anotheString, anotherValue, anotherLoggedIn])
+
+console.log(typeof anotheString)
+console.log(typeof anotherLoggedIn)
+console.log(typeof anotherValue)
